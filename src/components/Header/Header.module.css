@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-width: 1280px;
+  width: 100%;
+  background: #fff;
+  padding: 0 31px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  /* gap: 450px */
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  flex-shrink: 0;
+  /* width: 319px; */
+}
+
+.brandLogo {
+  width: 48px;
+  height: 48px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.brandName {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1e1e1e;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.stats {
+  /* width: 449px; */
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  align-items: flex-end;
+}
+
+.statsValueWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.statsValue {
+  font-weight: 700;
+  font-size: 32px;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+.statsLabel {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin: 0;
+}
+
+.statsValueSkeleton {
+  background-image: url("../../../src/assets/img/Skeleton.png");
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  fill: linear-gradient(90deg, #ededed 0%, #eaeaea 100%);
+  background-repeat: no-repeat;
+}
+
+.statsLabelSkeleton {
+  background-image: url("../../../src/assets/img/SkeletonLine.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  fill: linear-gradient(90deg, #ededed 0%, #eaeaea 100%);
+  width: 137px;
+  height: 26px;
+}
